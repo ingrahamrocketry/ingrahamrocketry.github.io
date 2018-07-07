@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<title>Ingraham Rocketry 🚀</title>
+    
+<html lang="en" class="no-js">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+<link rel="stylesheet" href="css/demo.css"> <!-- Demo style -->
+<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+<style>
+
+    /* general website layout */
+img {
+    image-orientation: from-image;
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+    
+/* Full height image header */
+.bgimg-1 {
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-image: url("/images/GroupBackground.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+ 
+/* layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+       
+</style>
+
+    
+<body>
+    
+<!-- Navbar (sit on top) -->
+<div class="w3-tosp">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">INGRAHAM ROCKETRY CLUB</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+        
+        <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-database"></i> ABOUT</a>
+        <a href="club.html" class="w3-bar-item w3-button"><i class="fa fa-rocket"></i> CLUB HISTORY</a>
+        <a href="images.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> IMAGES</a>
+        <a href="members.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> MEMBERS</a>
+        <a href="#donate" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> SPONSORS</a>
+        <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+      
+      
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- for small screens and mobile devices -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="club.html" onclick="w3_close()" class="w3-bar-item w3-button">CLUB HISTORY</a>
+    <a href="members.html" onclick="w3_close()" class="w3-bar-item w3-button">MEMBERS</a>
+    <a href="images.html" onclick="w3_close()" class="w3-bar-item w3-button">IMAGES</a>
+    <a href="#donate" onclick="w3_close()" class="w3-bar-item w3-button">SPONSORS</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+    
+    
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+      
+    <span class="w3-jumbo w3-hide-small">FITS 2018</span><br>
+      
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">FITS 2018</span><br>
+    <span class="w3-large">"I love space because it’s the future. Down is finite; up is infinite."</span>
+    <p><a href="#work" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">PROJECTS</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-white w3-jumbo" style="padding:24px 48px">
+      
+    <a href ="https://www.facebook.com/Ingraham-Rocketry-135895113299/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href ="https://www.instagram.com/ingrahamrocketry/?hl=en"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT THE CLUB</h3>
+  <p class="w3-center w3-large">Why join us?!</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-space-shuttle w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Expierenced</p>
+      <p>The club was founded in 2006, making us one of the oldest STEM clubs at Ingraham High School. We are also one of the few clubs at our school to have starred in the Seattle Times and the only high school rocket club in the Seattle Public Schools District. </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Focuses on STEM Topics</p>
+      <p>Rocket Club has had considerable success and growth since its inception in 2006. It has grown from a small group to a robust force. Club activities, with their different and demanding performance targets, are sponsored by industry groups and NASA to serve the underlying mission of engaging students in sciences, technology, engineering, and math (STEM) fields.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cubes w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Fun Challenges and Events!</p>
+      <p>Club activities include participating in the Team America Rocketry Challenge (TARC) and NASA's Student Launch Initiative (SLI). A lot of our members also participate in Fire in the Sky (FITS), the premier Northwest rocket-festival. </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Expanding your knowledge! </p>
+      <p>The club provides many opportunities to learn new skills and knowledge, such as basic aerodynamics, sewing, and mechanical/electrical design. Our members also learn how to work with fiberglass, plastic, wood, Kraft phenolic paper, 3D printers, and more. Club graduates have gone on to universities to study math, aerospace engineering, chemistry, biology, physics and bio-engineering, discovering career paths that didn't seem possible when they first started high school.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Info???
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>ehhh</h3>
+      <p>ooof</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> Our Projects</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="/w3images/mac.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+-->
+    
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">CLUB LEADERS</h3>
+  <p class="w3-center w3-large">Leadership is important!</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+          
+          <img src="https://s3-us-west-2.amazonaws.com/ingrahamrocketry/images/Tyson.jpg" alt="Tyson" style="width:100%">
+          
+          <div class="w3-container">
+          <h3>Tyson</h3>
+          <p class="w3-opacity">Co-President</p>
+          <p>(Insert bio here)</p>
+          <!-- <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
+        </div>
+      </div>
+    </div>
+      
+      
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+          
+          <img src="https://s3-us-west-2.amazonaws.com/ingrahamrocketry/images/Kira.jpg" alt="Tyson" style="width:100%">
+          
+        <div class="w3-container">
+          <h3>Kira</h3>
+          <p class="w3-opacity">Co-President</p>
+          <p>Been here for 5 years!</p>
+          <!-- <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
+        </div>
+      </div>
+    </div>
+      
+      
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+          
+          <img src="https://s3-us-west-2.amazonaws.com/ingrahamrocketry/images/Jack.jpg" alt="Tyson" style="width:100%">
+          
+        <div class="w3-container">
+          <h3>Jack</h3>
+          <p class="w3-opacity">Vice President</p>
+          <p>Likes rockets.</p>
+          <!-- <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
+        </div>
+      </div>
+    </div>
+      
+      
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+          
+        <img src="/images/Henry.jpg" alt="Henry" style="width:100%">
+          
+        <div class="w3-container">
+          <h3>Henry</h3>
+          <p class="w3-opacity">Secretary</p>
+          <p>Likes rockets.</p>
+          <!-- <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    
+<!-- Stats -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">2006</span>
+    <br>Since
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">15+ Active Members</span>
+    <br>Over
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">Top 10 in TARC</span>
+    <br>Placed 
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">NASA's SLI</span>
+    <br>Participated in
+  </div>
+</div>
+
+    
+    
+    
+<!-- Photo Grid/Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">Projects</h3>
+    <p class="w3-center w3-large">Club's Achievements</p>
+        <div class="row">
+            <div class="column">
+              <img src="/images/Logo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Logo for Project Shuksan">
+              <img src="/images/TeamOlympus.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Team Olympus">
+            </div>
+            <div class="column">
+              <img src="/images/Constance.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Team Constance">
+              <img src="/images/Echo2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Team Echo test fires its TARC rocket in March of 2012.">
+            </div>
+            <div class="column">
+              <img src="/images/TARC.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="TARC Rockets 2018">
+              <img src="/images/SSTakeOff.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Silver Star at FITS 2018">
+                </div>
+            <div class="column">
+              <img src="/images/GroupSSPad.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="FITS 2018">
+              <img src="/images/launch.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="TARC Rocket">
+            </div>
+        </div>                                                                                      
+    </div>                                                                            
+                                                                                                                  
+
+<!-- Model for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+ 
+    
+<!-- DONATE! -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Donate</h3>
+      <p>Rocketry is expensive. While our rockets include some very inexpensive components, such as cardboard tubes and spray paint, they also include expensive components such as altimeters and other electronic components. While the Club receives some funding from Friends of Ingraham, we also rely on community support.</p>
+    </div>
+      <a href="https://www.alliance4ed.org/connect-with-us/donate/school-account/?sid=532" class="w3-button w3-black w3-center"><i class="fa fa-usd"></i> Donate Button!</a>
+      <div class="w3-col m6 w3-right">
+      <p>To ensure that all donations are tax deductible, we fundraise through the Alliance for Education, a registered 501(c)3, tax ID # 91-1508191.  No fees are charged for this service; the Rocket Club receives 100% of the funds you donate</p>
+    </div>
+</div>
+
+    
+    
+<!-- SPONSORS! -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="donate">
+  <h3>Sponsors</h3>
+  <p class="w3-large">We would like to extend our thanks to the following sponsors whose generous help is greatly appreciated:
+</p>
+    <a href="https://www.systemthree.com/">
+    <img border="0" height="104" src="/images/sy3.jpg" width="320"></a>
+    
+    <a href="http://www.rocket.com/">
+    <img border="0" src="/images/aerojet.jpg"></a>
+    
+    <a href="https://ingrahamhs.seattleschools.org/school_involvement/friends_of_ingraham">
+    <img border="0" height="104" src="/images/FOI.png" width="400"></a>
+
+</div>
+
+    
+    
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Newcomers are always welcomed!</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Ingraham High School</p>
+      <!-- <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: N/A</p> -->
+        <a href="mailto:ircseattle@gmail.com?Subject=I%20WANT%20TO%20JOIN%20ROCKETRY%20CLUB!!1!" target="_top"><p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i>Email: ircseattle@gmail.com</p></a>
+      <br>
+    </div>
+    <div class="w3-half">
+        
+        
+        
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:510px;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey "><i class="fa fa-arrow-up w3-margin-right"></i>Back to top</a>
+  <div class="w3-xlarge w3-section">
+      
+    <a href ="https://www.facebook.com/Ingraham-Rocketry-135895113299/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href ="https://www.instagram.com/ingrahamrocketry/?hl=en"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      
+  </div>
+    
+    <p><a href="https://aws.amazon.com" title="W3.CSS" target="_blank"       class="w3-hover-text-blue">Powered by AWS S3</a></p>
+    <p><a href="https://sites.google.com/site/ingrahamrocketclub/home" title="W3.CSS" target="_blank" class="w3-hover-text-blue">Original Website</a></p>
+    <br>
+    <p>Special thanks to all of the Rocketry supporters (parents, sponsors, dedicated club members, patrons) out there!!!</p> <p><p>Without you, this club wouldn't've existed!</p>
+    
+</footer>
+ 
+    
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(47.725547, -122.339073);
+  var mapOptions= {
+    center:myCenter,
+    zoom:16, scrollwheel: true, draggable: true,
+    mapTypeId:google.maps.MapTypeId.HYBRID
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoz0hKNtw926vW4YTS5LjdwlHb868G2Ms&callback=myMap"></script>
+    
+<!-- transition --> 
+<a href="#0" class="cd-top js-cd-top"></a>
+<script src="js/main.js"></script> <!-- Resource JavaScript -->
+    
+</body>
+</html>
