@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-<html>   
-<title>Page Not Found 🚀</title>
+<html>
+<title>Ingraham Rocketry 🚀</title>
+    
+<html lang="en" class="no-js">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+<link rel="stylesheet" href="css/demo.css"> <!-- Demo style -->
+<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- yes i know im using w3schools, for that css -->
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
 <style>
 
+    /* general website layout */
 img {
     image-orientation: from-image;
 }
 
+body { padding-top: 60px; }
+    
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 body, html {
     height: 100%;
@@ -20,17 +34,73 @@ body, html {
     
 /* Full height image header */
 .bgimg-1 {
+    background-color: black;
     background-position: center;
     background-size: cover;
-    background-image: url("https://o.aolcdn.com/images/dims?quality=100&image_uri=http%3A%2F%2Fo.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2F3f4302208d4280e2d323b3352ea76472%2F203031535%2F02_bo_launch_download.jpg&client=cbc79c14efcebee57402&signature=04657c54f53fd5258d79a7fa367f3296492d2ef9");
+    background-image: url("/images/GroupBackground.jpg");
     min-height: 100%;
 }
 .w3-bar .w3-button {
     padding: 16px;
-}   
+}
+ 
+/* layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+ 
+.googleCalendar{
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 50%;
+
+}
+
+.googleCalendar iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
     
+.w3-card {
+  object-fit: cover;
+}
+
+
 </style>
-<body>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
@@ -38,65 +108,69 @@ body, html {
     <a href="index.html" class="w3-bar-item w3-button w3-wide">INGRAHAM ROCKETRY CLUB</a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-        
+      
         <a href="index.html" class="w3-bar-item w3-button">HOME</a>
         <a href="club.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> CLUB HISTORY</a>
         <a href="images.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> IMAGES</a>
         <a href="calendar.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> CALENDAR</a>
         
     </div>
-
-         <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
+      
+      
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
       <i class="fa fa-bars"></i>
     </a>
   </div>
 </div>
 
-
-<!-- for small screens and mobile devices --> 
+<!-- for small screens and mobile devices -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-    
+
     <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
     <a href="club.html" onclick="w3_close()" class="w3-bar-item w3-button">CLUB HISTORY</a>
     <a href="images.html" onclick="w3_close()" class="w3-bar-item w3-button">IMAGES</a>
     <a href="calendar.html" onclick="w3_close()" class="w3-bar-item w3-button">CALENDAR</a>
+    
 </nav>
 
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-display-left w3-text-white" style="padding:48px">
-    <span class="w3-jumbo">Page not found</span><br>
-      <h1>Houston, we'll find someplace to land!</h1>
-  </div> 
-  <div class="w3-display-bottomleft w3-text-white w3-jumbo" style="padding:24px 48px">
-      
-    <a href ="https://www.facebook.com/Ingraham-Rocketry-135895113299/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-    <a href ="https://www.instagram.com/ingrahamrocketry/?hl=en"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-      
-  </div>
-</header>
-   
+    <div class="googleCalendar"> 
+      <iframe src="https://calendar.google.com/calendar/embed?height=550&amp;wkst=1&amp;bgcolor=%234285F4&amp;ctz=America%2FLos_Angeles&amp;src=aXJjc2VhdHRsZUBnbWFpbC5jb20&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%233F51B5&amp;color=%23039BE5&amp;showNav=1&amp;showDate=1&amp;showPrint=1&amp;showTabs=1&amp;title=Rocketry%20Website%20Calendar" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+
+
+    
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64">
   <a href="#home" class="w3-button w3-light-grey "><i class="fa fa-arrow-up w3-margin-right"></i>Back to top</a>
-  <div class="w3-xlarge w3-section">
-      
+  <div class="w3-xlarge w3-section">  
     <a href ="https://www.facebook.com/Ingraham-Rocketry-135895113299/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-    <a href ="https://www.instagram.com/ingrahamrocketry/?hl=en"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-      
+    <a href ="https://www.instagram.com/ingrahamrocketry/?hl=en"><i class="fa fa-instagram w3-hover-opacity"></i></a> 
   </div>
-    
     <p><a href="https://pages.github.com/" title="W3.CSS" target="_blank" class="w3-hover-text-blue">Powered by GitHub Pages</a></p>
     <p><a href="https://sites.google.com/site/ingrahamrocketclub/home" title="W3.CSS" target="_blank" class="w3-hover-text-blue">Original Website</a></p>
-
-
-    
+    <br>
+    <p>Special thanks to all of the Rocketry supporters (parents, sponsors, dedicated club members, patrons) out there!!!</p> <p><p>Without you, this club wouldn't've existed!</p>
 </footer>
-    
+   
+<!-- Add Google Maps -->
 <script>
-    // Modal Image Gallery
+function myMap() {
+  myCenter=new google.maps.LatLng(47.725547, -122.339073);
+  var mapOptions= {
+    center:myCenter,
+    zoom:16, scrollwheel: true, draggable: true,
+    mapTypeId:google.maps.MapTypeId.HYBRID
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Model Image Gallery
 function onClick(element) {
   document.getElementById("img01").src = element.src;
   document.getElementById("modal01").style.display = "block";
@@ -104,10 +178,8 @@ function onClick(element) {
   captionText.innerHTML = element.alt;
 }
 
-
 // Toggle between showing and hiding the sidebar when clicking the menu icon
 var mySidebar = document.getElementById("mySidebar");
-
 function w3_open() {
     if (mySidebar.style.display === 'block') {
         mySidebar.style.display = 'none';
@@ -121,6 +193,11 @@ function w3_close() {
     mySidebar.style.display = "none";
 }
 </script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoz0hKNtw926vW4YTS5LjdwlHb868G2Ms&callback=myMap"></script>
+    
+<!-- transition --> 
+<a href="#0" class="cd-top js-cd-top"></a>
+<script src="js/main.js"></script> <!-- Resource JavaScript -->
     
 </body>
 </html>
