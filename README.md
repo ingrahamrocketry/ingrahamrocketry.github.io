@@ -10,3 +10,6 @@ I don't know how long this site is going to be alive for but, yeah.
 11/15/23
 This is the 2022-2023 Treasurer, Mae
 One of the next members to update the website (Before me was Jairen)
+
+6/19/24
+Current Editor for 2024-2025: Mae
