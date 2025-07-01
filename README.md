@@ -17,6 +17,11 @@ Email me at maeoliynyk@gmail if you have any questions, I organized the google d
 
 If you are reading this please make sure the officer log below is up to date!
 
+7/1/25
+Current Editor for 2025 - 2026: Mae
+As I am a senior, I will be passing this job off to whomever succeeds me, please don't hesitate to reach out with any questions!
+
+Please continue to update the officer log below, as well as the list of Rocket gods
 
 
 Officers:
@@ -43,10 +48,10 @@ Treasurer/Data collection/google drive: Mae Gerlicher, Junior
 
 
 2025-2026:
-President: 
-Vice President: 
-Secretary: 
-Treasurer: 
+President/Data collection/google drive: Mae Gerlicher, Senior
+Vice President: Ben Hicks, Senior
+Secretary: Addison Farrokhi, Senior
+Treasurer: Teddy Groebner, Senior
 
 2026-2027:
 President: 
@@ -61,4 +66,30 @@ Vice President:
 Secretary: 
 Treasurer: 
 
+2028-2029:
+President: 
+Vice President: 
+Secretary: 
+Treasurer: 
+
+2029-2030:
+President: 
+Vice President: 
+Secretary: 
+Treasurer: 
+
+
+
+
+Rocket Gods
+
+Inducted 2022 - 2023:
+
+Eric Blumhagen (Mentor)
+
+Fin Alignment Tool (Taran Kaylor)
+
+Aellopos Chrysopterus (Iris Hotchwalt) (Blood God)
+
+IHS Rocket Club (The Club Computer)
 
