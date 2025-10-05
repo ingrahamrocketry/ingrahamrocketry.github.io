@@ -21,7 +21,7 @@ If you are reading this please make sure the officer log below is up to date!
 Current Editor for 2025 - 2026: Mae
 As I am a senior, I will be passing this job off to whomever succeeds me, please don't hesitate to reach out with any questions!
 
-Please continue to update the officer log below, as well as the list of Rocket gods
+Please continue to update the officer log below
 
 
 Officers:
@@ -81,15 +81,6 @@ Treasurer:
 
 
 
-Rocket Gods
 
-Inducted 2022 - 2023:
 
-Eric Blumhagen (Mentor)
-
-Fin Alignment Tool (Taran Kaylor)
-
-Aellopos Chrysopterus (Iris Hotchwalt) (Blood God)
-
-IHS Rocket Club (The Club Computer)
 
