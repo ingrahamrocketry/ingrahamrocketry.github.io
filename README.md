@@ -54,10 +54,10 @@ Secretary: Addison Farrokhi, Senior
 Treasurer: Teddy Groebner, Senior
 
 2026-2027:
-President: 
-Vice President: 
-Secretary: 
-Treasurer: 
+President: Jos Daniels
+Vice President: Sophia Guanzon
+Secretary: Tristen Reynolds
+Treasurer: Sarah Morrow
 
 
 2027-2028:
